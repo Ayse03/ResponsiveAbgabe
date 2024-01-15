@@ -1,0 +1,507 @@
+@font-face {
+    font-family: "My Custom Font Bold";
+    src: url(Corporate-A-Font/Corporate_A_Bold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Font Light";
+    src: url(Corporate-A-Font/Corporate_A_Bold.otf) format("truetype");
+}
+
+body {
+    margin: 0;
+    max-width: 100%; /* Begrenzt die Breite des gesamten Inhalts auf die Bildschirmbreite */
+    overflow-x: hidden; /* Verhindert das horizontale Scrollen */
+ 
+}
+
+h2{
+    font-family: "My Custom Font Bold";
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.small-p{
+    font-size: 10px;
+}
+
+.logo{
+    position: relative;
+    height: 135px;
+    background-color: black;
+    display: flex;
+}
+
+.logo img{
+    width: 180px;
+    height: auto;
+    left: 11%;
+    position: relative;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+
+.item1 {
+    position: absolute;
+    top: 42%; /* Vertikale Ausrichtung in der Mitte des übergeordneten Elements */
+    left: 11%; /* Horizontale Ausrichtung in der Mitte des übergeordneten Elements */
+    text-align: center; /* Zentriert den Text innerhalb des übergeordneten Elements */
+    color: rgb(0, 0, 0); /* Textfarbe */
+    src: url(Corporate-A-Font/Corporate\ A\ Bold.otf);
+    font-size: 40px;
+}
+
+.item2 {
+    position: absolute;
+    top: 52%; /* Vertikale Ausrichtung in der Mitte des übergeordneten Elements */
+    left: 11%; /* Horizontale Ausrichtung in der Mitte des übergeordneten Elements */
+    color: rgb(0, 0, 0); /* Textfarbe */
+    font-size: 15px;
+    font-family: "My Custom Font";
+    src: url(Corporate-A-Font/Corporate\ A\ Light.ttf);
+
+}
+
+.subitems{
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  font-family: "My Custom Font Light";
+    font-size: 25px;
+    flex-direction: row;
+}
+
+.subitems > div {
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.subitems > div > p{
+    margin: 0;
+}
+
+.subitems-headline{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.subitem2 > p, .subitem4 > p{
+    text-align: left;
+}
+
+.bilder{
+    font-size: 20px;
+    margin: 100px 10%;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+.bilder p{
+    margin-bottom: 20px;
+}
+
+.image-tabs{
+    margin-top: 50px;
+}
+
+.image-tabs .image-tab{
+    width: 100%;
+    height: auto;
+}
+
+.nav-pills > li > a{
+    color: black;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: black;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+
+.technische_daten{
+    font-size: 15px;
+    margin: 50px 10%;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+.technische_daten .row{
+    display: flex;
+}
+
+.technische-daten-selection{
+    display: flex;
+  align-items: end;
+}
+
+#exTab4 {
+    font-size: 20px;
+}
+
+.kasten_daten{
+  display: flex;
+  flex-direction: column;  
+}
+
+.kasten_daten > div {
+  background-color: white;
+  border: 1px solid black;
+  width: 500px;
+  height: 60px;
+  margin: 0.5%;
+  margin-top: 2.5%;
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 10%;
+}
+  
+.weitere_technische_Daten{
+    margin: 100px 10%;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+.weitere_technische_Daten h3{
+    margin-bottom: 50px;
+}
+
+.weitere_technische_daten_content{
+    padding: 0 20px;
+}
+
+.container_weitere{
+    display: flex;
+    flex-direction: row;
+    src: url(Corporate-A-Font/Corporate\ A\ Light.ttf);
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.obere_Zeile, .untere_Zeile {
+  display: flex;
+  justify-content: space-between; /* Die Elemente in den Zeilen werden gleichmäßig verteilt */
+  white-space: nowrap;
+ 
+}
+
+.obere_Zeile, .untere_Zeile p{
+  padding: 2px;
+  margin-right: 180px;
+  margin-left: 120px;
+  
+}
+
+.obere_Zeile > div{
+  margin-left: 10px;
+}
+.container_weitere >div{
+  width: 33%;
+  margin: 20px 0;
+}
+
+.obere_Zeile > div > div:nth-child(2) {
+  margin-right: 180px; /* Hier kannst du den Abstand anpassen */
+}
+
+.untere_Zeile > div > div:nth-child(1) {
+  margin-left: 80px; /* Hier kannst du den Abstand anpassen */
+}
+
+.bild-container {
+    height: auto; /* Ändere die Höhe nach Bedarf */
+    position: relative;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+}
+
+.call_to_action{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.call_to_action p{
+    src: url(Corporate-A-Font/Corporate\ A\ Bold.otf);
+    font-size: 50px;
+}
+
+ strong {
+  font-size: 18px;
+
+}
+
+.footer{
+    position: relative;
+    padding: 10px;
+    font-family: "My Custom Font Light";
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+
+.kasten {
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid white; /* Weißer Rahmen mit 2 Pixel Dicke */
+    color: white; /* Textfarbe auf Weiß setzen (optional, je nach Hintergrund) */
+    margin: 100px 10%; /* Automatisches Zentrieren der Seitenränder */
+    white-space: nowrap;
+    padding: 30px 25px;
+}
+
+.kasten .row{
+    display: flex;
+    align-items: center;
+}
+
+.kasten-headline{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_woerter {
+    position: relative;
+    margin-top: 50px;
+    background-color: black;
+    margin-left: 11%;
+}
+
+.footer_woerter .row{
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.weißeLinie {
+    border-color: white;
+    border-width: 1px;
+    margin: 100px 10%;
+}
+
+.wort-container {
+    display: flex;
+    flex-direction: row;
+    src: url(Corporate-A-Font/Corporate\ A\ Bold.otf);
+    font-size: 11px;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.wort-container img {
+    margin-left: 0px;
+}
+
+.wort-container-links{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.wort-container-links p{
+    padding-right: 50px;
+}
+
+.wort-container-icons{
+    margin-right: 10%;
+}
+
+.blue-button{
+    background-color: rgb(0, 149, 255);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: 0;
+}
+
+@media only screen and (min-width: 1201px) {
+  .blue-button{
+    min-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+    .item1{
+        top: 65%;
+    }
+    .item2{
+        top: 73%;
+    }
+    .call_to_action{
+        top:auto;
+        bottom: 8%;
+    }
+    .header-image img{
+        margin-right: -40%;
+    }
+    .footer_woerter > div > div{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-image img{
+        margin-right: -55%;
+    }
+    .kasten > .row{
+        flex-wrap: wrap;
+    }
+    .wort-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wort-container-icons{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-image img{
+        margin-right: -55%;
+    }
+    .technische_daten > .row{
+        flex-wrap: wrap;
+    }
+    .kasten {
+        white-space: normal;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .blue-button {
+        min-width: 100%; 
+        max-width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .item1 {
+        top: 65%; 
+        font-size: 20px;
+    
+    }
+
+    .item2{
+        top: 73%;
+        font-size: 12px;
+    }
+    .call_to_action{
+         top:auto;
+         bottom: 0.1%;
+         max-width: 100%;
+        }    
+    .call_to_action p {
+        font-size: 20px;
+    }
+    .blue-button {
+        max-width: 100%;
+        width: 8%;
+        height: 10%;
+        font-size: 10px;
+    }
+     .footer_woerter > div > div{
+         margin-bottom: 30px;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        .kasten_daten {
+          width: 100%;       
+        }
+        .kasten_daten > div{margin-left: 0;
+            width: 100%;}
+      }
+
+
+
+
+    @media only screen and (max-width: 576px) {
+        .header-image img {
+         max-width: 100vw;
+          height: 300px; 
+          margin: 0;
+          padding: 0;   
+          object-fit: cover;    
+        }
+        .container_weitere > div {
+            width: 100%;
+           
+          }
+          .wort-container{
+            flex-direction: column;
+        
+        
+          }
+          .wort-container-links{
+            flex-direction: column;
+      }
+      html{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .footer_woerter {
+        margin-right: 0;
+    }
+    .footer_woerter .row{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_woerter .row p{
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        text-align: center;
+    }
+    .wort-container-icons{
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .subitems{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
